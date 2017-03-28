@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  color: white;
+  font-family: Sofia;
+  font-size: 38px;
+  padding: 20px 0 10px;
+  margin: 0;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-family: quicksand;
+  font-size: 22px;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+h4 {
+  color: white;
+  font-family: quicksand;
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+}
+
+li {
+  color: white;
+  font-family: quicksand;
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+  list-style-type: none;
+}
+
+ul {
+  padding: 0 20px 0 0;
+}
+
+p {
+  color: white;
+  font-family: quicksand;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  flex-grow: 1;
+}
+
+.about {
+  flex-grow: 1;
+}
+
+.logo {
+  font-family: Sofia;
+  color: white;
+  text-align: center;
+}
+
+.profile {
+  display: block;
+  margin: auto;
+  height: 175px;
+}
+
+.experience {
+  text-align: center;
+  background-color: cadetblue;
+  padding-bottom: 20px;
+  flex-grow: 1;
+}
+
+.experience-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.experience-1 {
+  width: 200px;
+  flex-grow: 4;
+}
+
+.experience-2 {
+  width: 200px;
+  flex-grow: 4;
+}
+
+.experience-3 {
+  width: 200px;
+  flex-grow: 4;
+}
+
+.experience-4 {
+  width: 200px;
+  flex-grow: 4;
+}
+
+.education {
+  text-align: center;
+  background-color: coral;
+  padding-bottom: 20px;
+  flex-grow: 2;
+}
+
+.skills {
+  text-align: center;
+  background-color: crimson;
+  padding-bottom: 20px;
+  flex-grow: 3;
+}
+
+.edu-skill {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.contact {
+  padding-bottom: 20px;
+  flex-grow: 0.5;
+  background-color: darkblue;
+}
+
+.skills-set {
+  display: inline-block;
+}
