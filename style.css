@@ -15,7 +15,7 @@ h2 {
 
 h3 {
   color: white;
-  font-family: quicksand;
+  font-family: sans-serif;
   font-size: 22px;
   padding: 20px;
   margin: 0;
@@ -24,7 +24,7 @@ h3 {
 
 h4 {
   color: white;
-  font-family: quicksand;
+  font-family: sans-serif;
   font-size: 18px;
   margin: 0;
   text-align: center;
@@ -32,11 +32,12 @@ h4 {
 
 li {
   color: white;
-  font-family: quicksand;
+  font-family: sans-serif;
   font-size: 18px;
   margin: 0;
   text-align: center;
   list-style-type: none;
+  padding-bottom: 8px;
 }
 
 ul {
@@ -45,9 +46,9 @@ ul {
 
 p {
   color: white;
-  font-family: quicksand;
+  font-family: sans-serif;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -61,10 +62,12 @@ body {
 
 .header {
   flex-grow: 1;
+  background-color: brown;
 }
 
 .about {
   flex-grow: 1;
+  background-color: brown;
 }
 
 .logo {
@@ -135,7 +138,7 @@ body {
 .contact {
   padding-bottom: 20px;
   flex-grow: 0.5;
-  background-color: darkblue;
+  background-color: cornflowerblue;
 }
 
 .skills-set {
